@@ -22,7 +22,8 @@ public class ArrayFrequency {
 
 		System.out.println(list);
 
-		list.stream().filter(t -> Collections.frequency(list, t) == 1).forEach(key -> System.out.println(key));
+		list.stream().filter(t -> Collections.frequency(list, t) == 1)
+		             .forEach(key -> System.out.println(key));
 
 	}
 }
